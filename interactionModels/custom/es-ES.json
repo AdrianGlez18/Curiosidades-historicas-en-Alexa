@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "datos curiosos aleatorios",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "otro",
+            "otro dato",
+            "nueva ",
+            "otra curiosidad mas",
+            "una mas",
+            "mas",
+            "otra",
+            "si por favor",
+            "si",
+            "nueva curiosidad",
+            "dime otra",
+            "dime una curiosidad",
+            "cuéntame una",
+            "dime una",
+            "otra curiosidad"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetFactByStockIntent",
+          "slots": [
+            {
+              "name": "Lugar",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "una de {Lugar}",
+            "dime una curiosidad de {Lugar}",
+            "curiosidad de {Lugar}",
+            "curiosidad historica de {Lugar}",
+            "ahora sobre {Lugar}",
+            "ahora una de {Lugar}",
+            "ahora una sobre {Lugar}",
+            "dime una de {Lugar}",
+            "cuentame algo sobre {Lugar}",
+            "dime una sobre {Lugar}",
+            "dime una curiosidad histórica de {Lugar}"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "ExceptionIntent",
+          "slots": [],
+          "samples": [
+            "vale"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
