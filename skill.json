@@ -3,23 +3,23 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:386898763178:function:90c04af4-9af3-41d7-83fa-063aaa837751:Release_0"
+          "uri": "arn:aws:lambda:eu-west-1:286727144415:function:b8b3cc05-294f-430f-a377-773d82df96b3:Release_0"
         },
         "interfaces": [],
         "regions": {
           "NA": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:386898763178:function:90c04af4-9af3-41d7-83fa-063aaa837751:Release_0"
+              "uri": "arn:aws:lambda:us-east-1:286727144415:function:b8b3cc05-294f-430f-a377-773d82df96b3:Release_0"
             }
           },
           "EU": {
             "endpoint": {
-              "uri": "arn:aws:lambda:eu-west-1:386898763178:function:90c04af4-9af3-41d7-83fa-063aaa837751:Release_0"
+              "uri": "arn:aws:lambda:eu-west-1:286727144415:function:b8b3cc05-294f-430f-a377-773d82df96b3:Release_0"
             }
           },
           "FE": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-west-2:386898763178:function:90c04af4-9af3-41d7-83fa-063aaa837751:Release_0"
+              "uri": "arn:aws:lambda:us-west-2:286727144415:function:b8b3cc05-294f-430f-a377-773d82df96b3:Release_0"
             }
           }
         }
@@ -31,6 +31,9 @@
       "distributionCountries": [],
       "isAvailableWorldwide": true,
       "locales": {
+        "en-US": {
+          "name": "SIPC_Curiosidades historicas"
+        },
         "es-ES": {
           "description": "Sample Full Description",
           "examplePhrases": [
@@ -39,7 +42,7 @@
             "ayuda"
           ],
           "keywords": [],
-          "name": "Curiosidades históricas",
+          "name": "SIPC_Curiosidades historicas",
           "summary": "Sample Short Description"
         }
       },
